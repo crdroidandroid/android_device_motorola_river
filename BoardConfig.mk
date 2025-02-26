@@ -27,7 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := river
 TARGET_SCREEN_DENSITY := 420
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := river_defconfig
